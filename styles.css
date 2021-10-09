@@ -93,3 +93,11 @@ footer {
   margin: 0 auto;
   max-width: 80px;
 }
+
+.btn-primary {
+  background-color: #0085ec;
+}
+
+a {
+  color: black;
+}
