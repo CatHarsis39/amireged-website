@@ -1,0 +1,19 @@
+/*font-family: 'Noto Sans Display', sans-serif;*/
+
+body {
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.logo {
+  max-width: 40px;
+}
+
+.navbar-nav {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: large;
+  color: black;
+}
