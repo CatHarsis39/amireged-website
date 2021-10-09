@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-  max-width: 60px;
+  max-width: 70px;
   margin-left: 100px;
 }
 
@@ -25,7 +25,7 @@ body {
 
 #intro {
   background-image: url("media/intro-resize.jpg");
-  height: 100vh;
+  height: 70vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
