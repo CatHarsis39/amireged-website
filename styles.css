@@ -101,3 +101,8 @@ footer {
 a {
   color: black;
 }
+
+.copyright {
+  flex: 1;
+  justify-content: center;
+}
