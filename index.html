@@ -28,9 +28,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
     <title>Amireged accueil</title>
   </head>
   <body>
+    <!-- Navbar -->
+
     <nav
       class="navbar navbar-expand-lg navbar-light bgred static-top"
       id="anchor-top"
@@ -47,71 +50,62 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html"
-          ><img src="media/amireged.png" alt="logoamireged" class="logo"
+        <a class="navbar-brand" href="index.html" title="Homepage"
+          ><img
+            src="media/amireged.png"
+            alt="Sandrine Logo"
+            class="logo"
+            title="Homepage"
         /></a>
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a href="index.html" class="nav-link">Accueil</a>
-            </li>
-            <li class="nav-item dropdown">
               <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
+                class="nav-link"
+                aria-current="page"
+                href="index.html"
+                title="About Sandrine"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="portfolio.html"
+                title="Sandrine's projects"
                 >Nos solutions</a
               >
-              <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">Capture</a>
-                <a href="#" class="dropdown-item"
-                  >Lecture automatique de documents</a
-                >
-                <a href="#" class="dropdown-item">Nos logiciels</a>
-                <a href="#" class="dropdown-item"
-                  >Geide et matériels de Geide</a
-                >
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                >Nos services</a
-              >
-              <div class="dropdown-menu">
-                <a href="#" class="dropdown-item"
-                  >Audit, installation et déploiement</a
-                >
-                <a href="#" class="dropdown-item">Data</a>
-                <a href="#" class="dropdown-item">Support d'exploitation</a>
-                <a href="#" class="dropdown-item">Maintenance</a>
-                <a href="#" class="dropdown-item">Formations</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                >Société</a
-              >
-              <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">Notre histoire</a>
-                <a href="#" class="dropdown-item">Nos partenaires</a>
-                <a href="#" class="dropdown-item">Étude de cas</a>
-              </div>
             </li>
             <li class="nav-item">
-              <a href="nous-contacter.html" class="nav-link">Nous contacter</a>
+              <a
+                class="nav-link"
+                href="cv.html"
+                title="Sandrine's CV and reviews"
+                >Nos services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" title="Contact Sandrine"
+                >Études de cas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="societe.html" title="Contact Sandrine"
+                >Société</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="nous-contacter.html"
+                title="Contact Sandrine"
+                >Nous contacter</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Navbar -->
-
     <!-- intro picture -->
     <div
       class="
@@ -274,7 +268,7 @@
               <a href="#!">Nos services</a>
             </p>
             <p>
-              <a href="#!">Nos Partenaires</a>
+              <a href="#!">Société</a>
             </p>
           </div>
 
