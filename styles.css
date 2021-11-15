@@ -14,20 +14,21 @@ footer {
 #intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("media/intro-resize.jpg");
-  height: 80vh;
+  height: 70vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 576px) {
   #intro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url("media/intro-resize.jpg");
-    height: 80vh;
+    height: 70vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
