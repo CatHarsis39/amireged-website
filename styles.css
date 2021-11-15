@@ -124,6 +124,7 @@ a {
 nav .content {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 nav .content .links {
   margin-left: 80px;
@@ -191,7 +192,7 @@ nav .content .links {
   background: #0184ec;
   color: white;
   top: 80px;
-  opacity: 1;
+  opacity: 0.5;
   visibility: hidden;
 }
 .content .links li:hover > ul {
