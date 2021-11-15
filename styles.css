@@ -126,6 +126,13 @@ a {
   justify-content: center;
 }
 
+@media (max-width: 576px) {
+  .wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
 nav .content {
   display: flex;
   align-items: center;
