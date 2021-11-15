@@ -14,13 +14,28 @@ footer {
 #intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("media/intro-resize.jpg");
-  height: 70vh;
+  height: 80vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
   margin-top: 25px;
+}
+
+@media (max-width: 576px) {
+  #intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("media/intro-resize.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    margin-top: 25px;
+    text-align: center;
+  }
 }
 
 .intro-title {
@@ -103,18 +118,7 @@ a {
 
 .logo {
   max-width: 70px;
-  margin-left: 100px;
-}
-
-.navbar-nav {
-  flex: 1;
-  justify-content: flex-end;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  font-size: large;
-  color: black;
-  margin: 20px;
+  margin-right: 100px;
 }
 
 nav .content {
@@ -158,7 +162,6 @@ nav .content .links {
   font-size: 18px;
   cursor: pointer;
   line-height: 70px;
-  width: 70px;
   text-align: center;
 }
 .wrapper .menu-icon {
@@ -188,8 +191,7 @@ nav .content .links {
   background: #0184ec;
   color: white;
   top: 80px;
-
-  opacity: 0;
+  opacity: 1;
   visibility: hidden;
 }
 .content .links li:hover > ul {
@@ -239,7 +241,9 @@ nav .content .links {
 @media screen and (max-width: 900px) {
   .wrapper .menu-icon {
     display: block;
+    text-align: left;
   }
+
   .wrapper #show-menu:checked ~ .menu-icon i::before {
     content: "\f00d";
   }
