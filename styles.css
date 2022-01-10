@@ -11,6 +11,10 @@ footer {
   background-color: white;
 }
 
+.nav-link {
+  color: black;
+}
+
 #intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("media/intro-resize.jpg");
