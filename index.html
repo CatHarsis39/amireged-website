@@ -40,140 +40,150 @@
   </head>
   <body>
     <!-- Navbar -->
-    <div class="container-fluid">
-      <div class="wrapper">
-        <nav>
-          <input type="checkbox" id="show-search" />
-          <input type="checkbox" id="show-menu" />
-          <label for="show-menu" class="menu-icon"
-            ><i class="fas fa-bars"></i
-          ></label>
-          <div class="content">
-            <div class="logo">
-              <a href="index.html">
-                <img
-                  src="media/amireged.png"
-                  alt="amireged-logo"
-                  class="logo d-none d-lg-block"
-              /></a>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bgred static-top mb-5 mt-3"
+    >
+      <a class="navbar-brand" href="index.html"
+        ><img class="logo" src="media/amireged.png" alt="amireged-logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <!-- separation dropdown -->
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Solutions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Therefore</a>
+              <a class="dropdown-item" href="#">Zeendoc</a>
+              <a class="dropdown-item" href="#">Abbyy</a>
             </div>
-            <ul class="links">
-              <li>
-                <a href="homepage/solutions.html" class="desktop-link"
-                  >Solutions</a
-                >
-                <input type="checkbox" id="show-features" />
-                <label for="show-features">Solutions GED</label>
-                <ul>
-                  <li><a href="solutions/therefore.html">Therefore</a></li>
-                  <li><a href="solutions/zeendoc.html">Zeendoc</a></li>
-                  <li><a href="solutions/abbyy.html">Abbyy</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="homepage/scanners.html" class="desktop-link"
-                  >Scanners</a
-                >
-                <input type="checkbox" id="show-services" />
-                <label for="show-services">Scanners</label>
-                <ul>
-                  <li>
-                    <a href="scanners/scanner-groupe-de-travail-bureau.html"
-                      >Groupe de travail de bureau</a
-                    >
-                  </li>
-                  <li><a href="scanners/scanner-service.html">Service</a></li>
-                  <li>
-                    <a href="scanners/scanner-production.html">Production</a>
-                  </li>
-                  <li><a href="scanners/scanner-autres.html">Autres</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="homepage/services.html" class="desktop-link"
-                  >Services</a
-                >
-                <input type="checkbox" id="show-services" />
-                <label for="show-services">Services</label>
-                <ul>
-                  <li>
-                    <a href="services/service-audit-et-gestion-de-projet.html"
-                      >Audit et gestion projets</a
-                    >
-                  </li>
-                  <li>
-                    <a href="services/service-extraction-donnee.html"
-                      >Extraction de données</a
-                    >
-                  </li>
-                  <li>
-                    <a href="services/service-archivage-physique.html"
-                      >Archivage physique</a
-                    >
-                  </li>
-                  <li>
-                    <a href="services/service-developpement-specifique.html"
-                      >Développement spécifique</a
-                    >
-                  </li>
-                  <li>
-                    <a href="services/service-saisie-donnees-ocr.html"
-                      >Saisie données-OCR</a
-                    >
-                  </li>
-                  <li>
-                    <a href="services/service-formation.html">Formation</a>
-                  </li>
-                  <li>
-                    <a href="services/service-prestation-de-secretariat.html"
-                      >Prestations de secrétariat</a
-                    >
-                  </li>
-                  <li>
-                    <a href="services/service-traduction.html">Traduction</a>
-                  </li>
-                </ul>
-              </li>
+          </li>
 
-              <li>
-                <a href="homepage/numerisation.html" class="desktop-link"
-                  >Numérisation</a
-                >
-                <input type="checkbox" id="show-services" />
-                <label for="show-services">Numérisation</label>
-                <ul>
-                  <li>
-                    <a href="numerisation/numerisation-a4-a3.html">A4/A3</a>
-                  </li>
-                  <li>
-                    <a href="numerisation/numerisation-plan.html">Plans</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="homepage/SAV.html">SAV</a></li>
+          <!-- separation dropdown -->
 
-              <li>
-                <a href="homepage/societe.html" class="desktop-link">Société</a>
-                <input type="checkbox" id="show-services" />
-                <label for="show-services">Société</label>
-                <ul>
-                  <li>
-                    <a href="societe/societe-notre-histoire.html"
-                      >Notre histoire</a
-                    >
-                  </li>
-                  <li>
-                    <a href="societe/societe-partenaires.html">Partenaires</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="homepage/archives.html">Archives</a></li>
-              <li><a href="homepage/nous-contacter.html">Nous contacter</a></li>
-            </ul>
-          </div>
-        </nav>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Scanners
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Groupe de travail de bureau</a>
+              <a class="dropdown-item" href="#">Service</a>
+              <a class="dropdown-item" href="#">Production</a>
+              <a class="dropdown-item" href="#">Autres</a>
+            </div>
+          </li>
+
+          <!-- separation dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Audit et gestion de projets</a>
+              <a class="dropdown-item" href="#">Extractions de données</a>
+              <a class="dropdown-item" href="#">Archivage physique</a>
+              <a class="dropdown-item" href="#">Développement spécifique</a>
+              <a class="dropdown-item" href="#">Saisie de données-OCR</a>
+              <a class="dropdown-item" href="#">Formation</a>
+              <a class="dropdown-item" href="#">Prestations de secrétariat</a>
+              <a class="dropdown-item" href="#">Traduction</a>
+            </div>
+          </li>
+          <!-- separation dropdown -->
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Numérisation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">A4/A3</a>
+              <a class="dropdown-item" href="#">Plans</a>
+            </div>
+          </li>
+
+          <!-- separation dropdown -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">SAV</a>
+          </li>
+          <!-- separation dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Société
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Notre histoire</a>
+              <a class="dropdown-item" href="#">Partenaires</a>
+            </div>
+          </li>
+
+          <!-- separation dropdown -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Archives</a>
+          </li>
+
+          <!-- separation dropdown -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nous contacter</a>
+          </li>
+          <!-- separation dropdown -->
+        </ul>
       </div>
-    </div>
+    </nav>
     <!-- Navbar -->
     <!-- intro picture -->
     <div

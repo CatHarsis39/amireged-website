@@ -11,8 +11,15 @@ footer {
   background-color: white;
 }
 
-.nav-link {
+.navbar-nav {
+  flex: 1;
+  justify-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 20px;
   color: black;
+  margin: 5px;
 }
 
 #intro {
@@ -123,6 +130,7 @@ a {
 
 .logo {
   max-width: 70px;
+  margin-left: 50px;
 }
 
 .wrapper {
