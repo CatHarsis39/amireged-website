@@ -11,11 +11,6 @@ footer {
   background-color: white;
 }
 
-.navbar-nav {
-  flex: 1;
-  justify-content: center;
-}
-
 .navbar-light .navbar-nav .nav-link {
   font-size: 20px;
   color: black;

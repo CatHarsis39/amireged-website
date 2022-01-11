@@ -32,57 +32,210 @@
   </head>
   <body>
     <!-- Navbar -->
-    <div class="container-fluid">
-      <div class="wrapper">
-        <nav>
-          <input type="checkbox" id="show-search" />
-          <input type="checkbox" id="show-menu" />
-          <label for="show-menu" class="menu-icon"
-            ><i class="fas fa-bars"></i
-          ></label>
-          <div class="content">
-            <div class="logo">
-              <img
-                src="media/amireged.png"
-                alt="amireged-logo"
-                class="logo d-none d-lg-block"
-              />
-            </div>
-            <ul class="links">
-              <li><a href="index.html">Accueil</a></li>
-              <li>
-                <a href="nos-solutions.html" class="desktop-link"
-                  >Nos solutions</a
-                >
-                <input type="checkbox" id="show-features" />
-                <label for="show-features">Nos solutions</label>
-                <ul>
-                  <li><a href="#">Solutions GEID</a></li>
-                  <li><a href="#">Drop Menu 2</a></li>
-                  <li><a href="#">Drop Menu 3</a></li>
-                  <li><a href="#">Drop Menu 4</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="desktop-link"> Nos Services</a>
-                <input type="checkbox" id="show-services" />
-                <label for="show-services"> Nos Services</label>
-                <ul>
-                  <li><a href="#">Drop Menu 1</a></li>
-                  <li><a href="#">Drop Menu 2</a></li>
-                  <li><a href="#">Drop Menu 3</a></li>
-                </ul>
-              </li>
-              <li><a href="etude-de-cas.html">Étude de cas</a></li>
-              <li><a href="societe.html">Société</a></li>
-              <li><a href="nous-contacter.html">Nous contacter</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bgred static-top mb-5 mt-3"
+    >
+      <a class="navbar-brand" href="index.html"
+        ><img class="logo mx-5" src="media/amireged.png" alt="amireged-logo"
+      /></a>
+      <button
+        class="navbar-toggler mx-5"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mr-auto">
+          <!-- separation dropdown -->
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="homepage/solutions.html"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Solutions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="solutions/therefore.html"
+                >Therefore</a
+              >
+              <a class="dropdown-item" href="solutions/zeendoc.html">Zeendoc</a>
+              <a class="dropdown-item" href="solutions/abbyy.html">Abbyy</a>
+            </div>
+          </li>
+
+          <!-- separation dropdown -->
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="homepage/scanners.html"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Scanners
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item"
+                href="scanners/scanner-groupe-de-travail-bureau.html"
+                >Groupe de travail de bureau</a
+              >
+              <a class="dropdown-item" href="scanners/scanner-service.html"
+                >Service</a
+              >
+              <a class="dropdown-item" href="scanners/scanner-production.html"
+                >Production</a
+              >
+              <a class="dropdown-item" href="scanners/scanner-autres.html"
+                >Autres</a
+              >
+            </div>
+          </li>
+
+          <!-- separation dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="homepage/services.html"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item"
+                href="services/service-audit-et-gestion-de-projet.html"
+                >Audit et gestion de projets</a
+              >
+              <a
+                class="dropdown-item"
+                href="services/service-extraction-donnee.html"
+                >Extractions de données</a
+              >
+              <a
+                class="dropdown-item"
+                href="services/service-archivage-physique.html"
+                >Archivage physique</a
+              >
+              <a
+                class="dropdown-item"
+                href="services/service-developpement-specifique.html"
+                >Développement spécifique</a
+              >
+              <a
+                class="dropdown-item"
+                href="services/service-saisie-donnees-ocr.html"
+                >Saisie de données-OCR</a
+              >
+              <a class="dropdown-item" href="services/service-formation.html"
+                >Formation</a
+              >
+              <a
+                class="dropdown-item"
+                href="services/service-prestation-de-secretariat.html"
+                >Prestations de secrétariat</a
+              >
+              <a class="dropdown-item" href="services/service-traduction.html"
+                >Traduction</a
+              >
+            </div>
+          </li>
+          <!-- separation dropdown -->
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="homepage/numerisation.html"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Numérisation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item"
+                href="numerisation/numerisation-a4-a3.html"
+                >A4/A3</a
+              >
+              <a
+                class="dropdown-item"
+                href="numerisation/numerisation-plan.html"
+                >Plans</a
+              >
+            </div>
+          </li>
+
+          <!-- separation dropdown -->
+          <li class="nav-item">
+            <a class="nav-link" href="homepage/SAV.html">SAV</a>
+          </li>
+          <!-- separation dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="homepage/societe.html"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Société
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item"
+                href="societe/societe-notre-histoire.html"
+                >Notre histoire</a
+              >
+              <a class="dropdown-item" href="societe/societe-partenaires.html"
+                >Partenaires</a
+              >
+            </div>
+          </li>
+
+          <!-- separation dropdown -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="homepage/archives.html">Archives</a>
+          </li>
+
+          <!-- separation dropdown -->
+          <li class="nav-item">
+            <a class="nav-link" href="homepage/nous-contacter.html"
+              >Nous contacter</a
+            >
+          </li>
+          <!-- separation dropdown -->
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar -->
     <!-- Footer -->
     <footer class="page-footer font-small mdb-color pt-4">
       <!-- Footer Links -->
