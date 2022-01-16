@@ -151,14 +151,14 @@ a {
 .button-71 {
   background-color: #0083eb;
   border: 0;
-  border-radius: 56px;
+  border-radius: 32px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
   outline: 0;
-  padding: 12px 17px;
+  padding: 14px 25px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -190,9 +190,8 @@ a {
 
 @media (max-width: 768px) {
   .button-71 {
-    padding: 12px 17px;
-    display: flex;
-    justify-content: center;
+    padding: 14px 25px;
+    text-align: center;
   }
 }
 
