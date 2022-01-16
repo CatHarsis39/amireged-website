@@ -20,7 +20,7 @@ body {
 #intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("media/intro-resize.jpg");
-  height: 70vh;
+  height: 90vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -34,7 +34,7 @@ body {
   #intro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url("media/intro-resize.jpg");
-    height: 70vh;
+    height: 90vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -47,18 +47,18 @@ body {
 
 .intro-title {
   color: white;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 800;
 }
 
 .description-intro {
   color: white;
-  font-size: 17px;
+  font-size: 25px;
   font-weight: 600;
 }
 
 footer {
-  background-color: white;
+  background-color: #fafafa;
 }
 
 .copyright {
@@ -175,4 +175,14 @@ a {
     display: flex;
     justify-content: center;
   }
+}
+
+.besoin-aide {
+  margin-top: -43px;
+  margin-bottom: 70px;
+}
+
+.row-aide {
+  flex: 1;
+  justify-content: center;
 }
