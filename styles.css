@@ -69,3 +69,61 @@ footer {
 a {
   color: black;
 }
+
+.quick-title {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.paragraph-quick {
+  font-size: 15px;
+  text-align: justify;
+}
+
+#engagement {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("media/engagement.jpg");
+  height: 70vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 576px) {
+  #engagement {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("media/engagement.jpg");
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    margin-top: 25px;
+    text-align: center;
+  }
+}
+
+.intro-engagement {
+  color: white;
+  margin: 20px;
+  font-size: 70px;
+  padding-bottom: 25px;
+}
+.icon-engagement {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 50px;
+}
+
+.title-engagement {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
