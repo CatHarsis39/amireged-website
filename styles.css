@@ -51,10 +51,28 @@ body {
   font-weight: 800;
 }
 
+@media (max-width: 576px) {
+  .intro-title {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+  }
+}
+
 .description-intro {
   color: white;
   font-size: 25px;
   font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .description-title {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+  }
 }
 
 footer {
