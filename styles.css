@@ -208,3 +208,8 @@ a {
 .quickfact {
   margin-bottom: 100px;
 }
+
+.map {
+  flex: 1;
+  justify-content: center;
+}
