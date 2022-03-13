@@ -18,7 +18,7 @@ body {
 }
 
 #intro {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
     url("media/intro-resize.jpg");
   height: 90vh;
   background-position: center center;
@@ -101,7 +101,7 @@ a {
 }
 
 #engagement {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("media/engagement.jpg");
   height: 90vh;
   background-position: center center;
@@ -239,4 +239,17 @@ a {
 
 .underparagraph {
   margin-top: 50px;
+}
+
+.aide-description {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.aide-petit {
+  margin-top: -20px;
+}
+
+.img-fluid {
+  max-width: 104%;
 }
